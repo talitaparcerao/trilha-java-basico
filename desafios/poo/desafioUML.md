@@ -32,19 +32,16 @@ classDiagram
     iPhone: +ligar()
     iPhone: +achar()
     class ReprodutorMusical{
-      +String nome
       +selecionarMusica(Strind Musica)
       +pausar()
       +tocar()
     }
     class AparelhoTelefonico{
-      -int codigo
       +ligar(String numero)
       +atender()
       +iniciarCorreioVoz()
     }
     class NavegadorInternet{
-      -int ip 
       +verificarConexao()
       +exibirPagina(Sring url)
       +adicionarNovaAba()
